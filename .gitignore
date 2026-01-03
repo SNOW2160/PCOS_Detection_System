@@ -1,0 +1,13 @@
+# 1. Ignore the Virtual Environment (Too big, not needed)
+venv/
+__pycache__/
+
+# 2. Ignore the Image Dataset (Too big for GitHub)
+data/images/
+
+# 3. Ignore System Files
+.DS_Store
+*.log
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
